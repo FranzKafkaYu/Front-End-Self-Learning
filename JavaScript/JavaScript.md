@@ -100,13 +100,15 @@ document.getElementById(“demo”).innerHTML=”我的第一个JavaScript函数
 
 \</html\>
 
-1.  数据类型
+## 数据类型
 
 基本类型：字符串（string）、数字（number）、布尔（Boolean）、对空（Null）、未定义（Undefined）、Symbol
 
 对象类型：对象（Object）、数组（Array）、函数（Function），还有两个特殊的对象正则与日期
 
-1.  输出与打印
+变量：使用var关键字来定义变量，使用=来为变量进行赋值
+
+## 输出与打印
 
 JavaScript自身没有任何打印或者输出的函数。
 
