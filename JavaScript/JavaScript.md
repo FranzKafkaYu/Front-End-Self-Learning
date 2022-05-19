@@ -136,6 +136,8 @@ methodName：
 
 ## 函数
 
+在JS中，函数将以function关键字开头。
+
 ## 输出与打印
 
 JavaScript自身没有任何打印或者输出的函数。
