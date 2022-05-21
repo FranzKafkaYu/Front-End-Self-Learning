@@ -130,13 +130,91 @@ document.getElementById(“demo”).innerHTML=”我的第一个JavaScript函数
 
 访问对象属性时通过.进行访问，如person.lastName
 
-对象方法时包含在对象的方法，类似与面向对象编程的成员函数这个概念。在Js中定义对象方法如下所示：
+对象方法是包含在对象内的方法，类似与面向对象编程的成员函数这个概念。在Js中定义对象方法如下所示：
 
-methodName：
+methodName：function(){
+
+//代码
+
+}
+
+我们通过objectName.methodName()的形式来实现对对象方法的调用
+
+关于在JavaScript中创建对象的实例：
+
+//表明是一个html 5文档
+
+\<!DOCTYPE html\>
+
+// \<html\>与\</html\>表示html文档的根元素
+
+\<html\>
+
+//\<head\>与\</head\>标签囊括的内容为元数据，这部分内容不直观展示，定义为页面属性
+
+\<head\>
+
+\<meta charset="utf-8"\>
+
+\<title\>菜鸟教程(runoob.com)\</title\>
+
+\</head\>
+
+//\<body\>与\</body\>关键字定义的是页面可见的内容
+
+\<body\>
+
+\<p\>创建 JavaScript 对象。\</p\>
+
+\<p id="demo"\>\</p\>
+
+\<script\>
+
+var person = {
+
+firstName : "John",
+
+lastName : "Doe",
+
+age : 50,
+
+eyeColor : "blue",
+
+fullName : function()
+
+{
+
+return this.firstName + " " + this.lastName;
+
+}
+
+};
+
+//访问对象属性与对象函数
+
+document.getElementById("demo").innerHTML =
+
+person.firstName + “全名为”+person.fullname()+" 现在 " + person.age + " 岁。";
+
+\</script\>
+
+\</body\>
+
+\</html\>
 
 ## 函数
 
-在JS中，函数将以function关键字开头。
+在JS中，函数将以function关键字开头。函数是由事件驱动的或者当它被调用时执行的可以重复使用的代码块。
+
+在JavaScript中，声明与定义函数的形式如下:
+
+function functionName()
+
+{
+
+//代码块
+
+}
 
 ## 输出与打印
 
